@@ -71,21 +71,21 @@ function draw() {
     if (p) {
       p.display();
 
-      if (p.body.position.y > height - 100) {
-        p.remove();
+      // if (p.body.position.y > height - 100) {
+      // p.remove();
 
-        for (var div_x = 0; div_x < divisions.length; div_x++) {
-          if (
-            divisions[div_x].body.position.x < p.body.position.x &&
-            80 > p.body.position.x
-          ) {
-            print(divisions[div_x]);
-            print(div_x + 1);
-          }
-        }
+      // for (var div_x = 0; div_x < divisions.length; div_x++) {
+      //   if (
+      //     divisions[div_x].body.position.x < p.body.position.x &&
+      //     80 > p.body.position.x
+      //   ) {
+      //     print(divisions[div_x]);
+      //     print(div_x + 1);
+      //   }
+      // }
 
-        delete particles[a];
-      }
+      // delete particles[a];
+      // }
     }
   }
 
